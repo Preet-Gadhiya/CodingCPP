@@ -6,7 +6,7 @@ string solve() {
     string str; cin>> str;
     bool isOdd = str.size()&1;
     int mid = str.size()>>1;
-    if(!isOdd) mid--;
+    if(!isOdd) mid--;   
 
     for(int i=0;i<str.size();i++){
         if(i==mid and isOdd){
